@@ -19,7 +19,7 @@ public class PeopleItemProcessor implements ItemProcessor<People, People> {
         log.info("Convert (" + peopleItem + ") to (" + people + ")");
 
 
-        return null;
+        return people;
 
     }
 }
